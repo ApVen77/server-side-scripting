@@ -26,6 +26,8 @@ const essentials = {
   module.exports = {
     essentials: essentials,
     niceToHaves: niceToHaves,
-    nonessentials: nonessentials
+    
   };
+
+  //React's export default 
   

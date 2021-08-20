@@ -1,5 +1,6 @@
 // Using the require keyword lets us access all of the exports
 // in our ess.js file
+var stuffINeed = require("./ess.js");
 //require the exports of variables 
  //include a direct path to file
 

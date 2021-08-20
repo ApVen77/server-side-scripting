@@ -1,10 +1,12 @@
 // * Make a JavaScript file called `bands.js` that exports an object of music genres and bands like this:
 //   ```javascript
-//   {
-//     punk: 'Green Day',
-//     rap: 'Run DMC',
-//     classic: 'Led Zeppelin'
-//   }
+const myBands = {
+    punk: "Fall Out Boy",
+    rap: "Drake",
+    classic: "Erikah Badu"
+  };
+
+  module.exports = myBands;
 //   ```
 // * Require this JavaScript file in `run.js`, loop over the values, and console.log them.
 // * **Note**: If you are having trouble with looping through objects, please google `how to loop through objects in javascript` to get yourself in the right direction!
