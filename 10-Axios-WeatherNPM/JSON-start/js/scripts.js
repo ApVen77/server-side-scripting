@@ -18,7 +18,7 @@
 // });
 
 
-const apiURL= "//api.openweathermap.org/data/2.5/weather?id=5419384&appid=b347cf40f5ceaeb40d7a64655b671d34&units=imperial"
+
 
 fetch (apiURL)
 .then((response) => response.json())
