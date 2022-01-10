@@ -1,21 +1,22 @@
-// fetch ("testdata.json")
-// .then((mydata) => mydata.json())
-// .then((mydata) => {
-//     console.log(mydata); 
-//     console.log(mydata.gender); 
-//     console.log(mydata.name); 
 
-//     document.getElementById("puppy").innerHTML= mydata.name;
-    
-//     let sample= document.createElement("h2"); 
-//     sample.textContent= mydata.url; 
-//     document.getElementById("puppy").appendChild(sample)
+fetch ("testdata.json")
+.then((mydata) => mydata.json())
+.then((mydata) => {
+    console.log(mydata); 
+    console.log(mydata.gender); 
+    console.log(mydata.name); 
 
-//     let sample2= document.createElement("h3"); 
-//     sample2.textContent= mydata.phone; 
-//     document.getElementById("puppy").appendChild(sample2)
+    document.getElementById("puppy").innerHTML= mydata.name;
     
-// });
+    let sample= document.createElement("h2"); 
+    sample.textContent= mydata.url; 
+    document.getElementById("puppy").appendChild(sample)
+
+    let sample2= document.createElement("h3"); 
+    sample2.textContent= mydata.phone; 
+    document.getElementById("puppy").appendChild(sample2)
+    
+});
 
 
 
