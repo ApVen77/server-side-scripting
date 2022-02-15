@@ -1,12 +1,15 @@
 {
-  "name": "09-AppendFile",
+  "name": "11-Inquirer-User",
   "version": "1.0.0",
-  "main": "append.js",
+  "description": "",
+  "main": "basic.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }

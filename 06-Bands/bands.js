@@ -1,13 +1,9 @@
-// * Make a JavaScript file called `bands.js` that exports an object of music genres and bands like this:
-//   ```javascript
-const myBands = {
-    punk: "Fall Out Boy",
-    rap: "Drake",
-    classic: "Erikah Badu"
-  };
+// * Make a JavaScript file called `bands.js` that exports an object of music genres and bands
 
-  module.exports = myBands;
-//   ```
+
+
+
+
 // * Require this JavaScript file in `run.js`, loop over the values, and console.log them.
 // * **Note**: If you are having trouble with looping through objects, please google `how to loop through objects in javascript` to get yourself in the right direction!
 // * Utilize a `for/in statement` to loop through the object and call a single `console.log()` that will output all of your bands. Do not write anymore than ONE console.log() within your code (it will go inside for/in loop)
