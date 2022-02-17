@@ -1,7 +1,13 @@
-// * Make a JavaScript file called `bands.js` that exports an object of music genres and bands
+// that exports an object of music genres and bands
+    const bands= {
+        rap: "Drake",
+        rock: "Glass Animals",
+        country: "Lil Nas X"
+    }
 
-
-
+    module.exports = {
+        bands:bands
+      };
 
 
 // * Require this JavaScript file in `run.js`, loop over the values, and console.log them.

@@ -3,6 +3,7 @@
 
 //import node modules with the require keyword
 
+
 const essentials = {
     drink: "water",
     eat: "snickers",
@@ -26,6 +27,7 @@ const essentials = {
   module.exports = {
     essentials: essentials,
     niceToHaves: niceToHaves,
+    nonessentials: nonessentials
     
   };
 

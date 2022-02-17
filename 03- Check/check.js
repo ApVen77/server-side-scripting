@@ -6,7 +6,7 @@
 // Then use your usual JavaScript approach (recall that Node is still just JavaScript).
 
 const a= 10; 
-const b= "april"; 
+const b= "10"; 
 
 if (a==b) {
     console.log("This is working")
